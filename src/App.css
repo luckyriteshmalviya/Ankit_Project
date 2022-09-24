@@ -1,0 +1,203 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+@font-face {
+  font-family: AdobeClean;
+  src: url(/practise/assignments/assets/fonts/AdobeClean-Regular.otf);
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  font-family: AdobeClean;
+}
+
+header {
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.primary-header {
+  padding: 22px 0;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primary-header-options {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  justify-content: space-between;
+}
+
+.primary-header-options-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.coin-item {
+  font-weight: bold;
+  margin-top: -5px;
+  font-size: 18px;
+}
+
+.logo-title {
+  float: left;
+  font-family: "Comfortaa", cursive;
+  font-size: 33px;
+}
+
+.header-primary-menu-action {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.mini-select-menu {
+  font-size: 15px;
+  border: 0.6px dashed rgb(223, 185, 114);
+  padding: 4px 7px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/*Course List Menu CSS Start*/
+
+.course-list-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+  gap: 8px;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.course-list-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.course-list-nav li {
+  list-style: none;
+}
+
+.chip-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.task-progress {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.task {
+  flex: 33%;
+  height: 5px;
+  background: #e9e9e9;
+}
+
+.task-filled {
+  flex: 33%;
+  background: orange;
+  height: 5px;
+}
+
+.chip {
+  width: 110px;
+  font-family: "Comfortaa", bold;
+  text-align: center;
+  padding: 6px;
+  background: linear-gradient(90deg, #fc5d73, #ff993f);
+  border-radius: 8px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/*Course List Menu CSS Start End*/
+section.container {
+  padding: 0 12px;
+}
+
+.course-list {
+  position: relative;
+  margin-top: 26px;
+}
+
+/*Main Container CSS**/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 395px;
+  margin-top: 40px;
+}
+
+.course-tracker-container {
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.course-card {
+  display: flex;
+  gap: 12px;
+  flex-grow: 1;
+}
+
+.card-description {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #dadada;
+}
+
+.course-icon {
+  border-radius: 50%;
+  margin-top: 1px;
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+}
+
+.course-icon-filled {
+  background: linear-gradient(90deg, #21ce72, #8cdab0);
+  border-radius: 50%;
+}
+
+.course-card-action-icon {
+  background: #fff5eb;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.course-title {
+  font-size: 18px;
+}
+
+.course-meta {
+  float: left;
+  font-size: 14px;
+  color: grey;
+}
+
+.main-div-container {
+  width: 393px;
+  background-color: white;
+  border: 1px solid rgb(216, 216, 216);
+}

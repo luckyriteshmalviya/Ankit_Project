@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 80px;
+  display: flex;
+  padding-top: 10px;
+  border-top: 1px solid rgb(214, 214, 214);
+  color: #aaaa;
+  font-family: "Comfortaa", bold;
+  justify-content: space-evenly;
+  height: 72px;
+  box-shadow: 0px -3px 25px 0px;
+}
